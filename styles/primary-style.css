@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Primary Classes */
+.text-red {
+    color: #E55473;
+}
+
+.title-primary {
+    color: #272727;
+    font-family: 'Lato';
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.desc-primary {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 15px 0px;
+}
+
+.desc-bold-primary {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    margin: 15px 0px;
+}
+
+.btn-primary {
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 8px;
+    background: #E55473;
+}
+
+
+
+/* header style */
+.header-container {
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px 0px 150px;
+}
+
+.header-title {
+    color: #272727;
+    font-family: 'Lato';
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.header-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 15px 0px;
+}
+
+.header-left {
+    width: 50%;
+}
+
+.header-img {
+    height: 550px;
+}
+
+
+/* bouns style */
+.bonus-container {
+    min-height: 500px;
+}
+
+
+
+/* hot deal style */
+.hot-deal-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 0px 150px 0px 150px;
+}
+
+.hot-deal-left {
+    width: 45%;
+    text-align: center;
+}
+
+.hot-deal-title {
+    color: #272727;
+    font-family: 'Lato';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.hot-deal-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0px;
+}
+
+.hot-deal-img {
+    height: 300px;
+    margin: 80px 0px;
+}
+
+
+/* instagram style  */
+.insta-container {
+    text-align: center;
+    padding: 0px 150px 0px 150px;
+}
+
+
+.insta-card-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.insta-card {
+    width: 250px;
+    height: 300px;
+}
+
+.insta-card img {
+    width: 100%;
+    height: 100%;
+}
+
+.subscribe-container {
+    text-align: center;
+    margin: 150px 150px 150px 150px;
+    padding: 100px 0px;
+    background-image: url('../images/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+input {
+    border: none;
+    border-radius: 8px;
+    width: 400px;
+    padding: 15px 40px;
+    margin: 30px 10px 0px 0px;
+}
+
+/* footer style  */
+.footer-container {
+    text-align: center;
+    background-color: #111010;
+    padding: 100px 0px;
+}
+
+.footer-title {
+    color: white;
+    font-family: 'Lato';
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.footer-desc {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 15px 0px;
+}
+
+.copy-right {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+
+
+
+/* featured flower style */
+/* From here everything for bonus  */
+.featured-container {
+    text-align: center;
+    margin: 150px 150px 150px 150px;
+}
+
+.featured-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.featured-card {
+    height: 500px;
+    width: 340px;
+}
+
+.featured-card-header {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.featured-image {
+    width: 70%;
+    height: 80%;
+}
+
+
+
+#skyblue-featured-card {
+    background-color: rgba(5, 151, 160, 0.15);
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+
+}
+
+#yellow-featured-card {
+    background-color: rgba(71, 125, 17, 0.15);
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+#pink-featured-card {
+    background-color: rgba(167, 33, 98, 0.15);
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+
+}
+
+.featured-card-link {
+    color: #272727;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.service-container {
+    background-color: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+/* nav styles */
+.logo-text {
+    color: #272727;
+    font-family: 'Lato';
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.nav-container {
+    height: 50px;
+    background-color: rgba(229, 84, 115, 0.185);
+    box-shadow: 0.5px 0.5px 8px rgba(128, 128, 128, 0.336);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 150px;
+}
+
+.nav-left {
+    width: 50%;
+}
+
+.nav-right {
+    width: 50%;
+    display: flex;
+    gap: 50px;
+    justify-content: end;
+    list-style: none;
+    color: #E55473;
+    font-family: 'Lato';
+    font-weight: 700;
+}
+
+.nav-right>li:hover {
+    color: #111010;
+    cursor: pointer;
+}
+
+/* best seller style  */
+
+.best-seller-container {
+    margin: 150px 150px 150px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best-seller-card {
+    background-color: #FEF6F8;
+    border: .000000001px solid #e554739a;
+    width: 24%;
+    height: 400px;
+    box-shadow: 0.5px 0.5px 8px #e554734f;
+}
+
+.best-card-header {
+    width: 100%;
+    height: 70%;
+}
+
+.best-card-body {
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+.best-seller-img {
+    width: 100%;
+    height: 100%;
+}
+
+.best-card-body button {
+    margin-top: 15px;
+}
+
+.best-card-body>p {
+    margin: 0px;
+}
+
+#best-seller-card-desc {
+    border: .1px solid #e554739a;
+    width: 24%;
+    height: 400px;
+    box-shadow: 0.5px 0.5px 8px #e554734f;
+}
+
+#best-seller-cardheader-desc {
+    display: flex;
+    height: 20%;
+    background-color: #E55473;
+    color: white;
+    font-family: 'Lato';
+    font-size: 30px;
+    font-weight: 800;
+    justify-content: center;
+    align-items: center;
+}
+
+#best-card-body-desc {
+    text-align: center;
+}
